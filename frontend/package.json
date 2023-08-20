@@ -11,6 +11,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.4.0",
     "cheerio": "^1.0.0-rc.12",
+    "clipboard-polyfill": "^4.0.0",
     "qs": "^6.11.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
