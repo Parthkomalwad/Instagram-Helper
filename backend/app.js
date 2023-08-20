@@ -83,7 +83,7 @@ app.get("/post", (req, res) => {
     const downloadUrl = req.header('X-Download-URL')
 
     const data = {
-        q: `https://www.instagram.com/p/Cve8kVIoxG0/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==`,
+        q: `${downloadUrl}`,
         t: 'media',
         lang: 'en',
     };
